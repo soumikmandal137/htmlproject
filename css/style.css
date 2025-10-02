@@ -163,7 +163,6 @@ font-weight: 200;
   color: #ffffff;
   font-size: 20px;
   background-color: #000000;
-  /* color: transparent; */
 }
 
 .contact .container .row .col20 .contactus button i{
@@ -173,4 +172,29 @@ font-weight: 200;
 .contact .container .row .col20 .contactus button:hover {
 background-color: transparent;
 border: 2px solid #fff;
+}
+.Design{
+  position: relative;
+  min-height: 100px;
+  width: 100%;
+  top: 50px;
+}
+.Design .container .row .col50{
+  max-width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+  display: flex;
+}
+.Design .container .row .col50 .landscape h2{
+color: #282c3d;
+font-size: 38px;
+font-weight: bolder;
+text-transform: capitalize;
+padding-left: 30px;
+}
+.Design .container .row .col50 .landscape span{
+  color: #282c3d;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1.14;
 }
