@@ -67,15 +67,18 @@ a {
   display: none;
 }
 
-.banner{
-   width: 100%;
-   position: relative;
+.banner {
+  width: 100%;
+  position: relative;
 }
-.banner .container{
+.banner .container {
   max-width: 100%;
   width: 100%;
   padding: 0;
 }
+
+
+
     .swiper {
       width: 100%;
       height: 100%;
@@ -126,3 +129,48 @@ a {
       stroke-dasharray: 125.6;
       transform: rotate(-90deg);
     }
+.contact{
+  min-height: 100px;
+  width: 100%;
+  position: relative;
+  background-color: #6db62a;
+}
+.contact .container .row{
+  position: relative;
+  top: 30px;
+}
+.contact .container .row .col80{
+  max-width: 80%;
+  flex: 0 0 80%;
+  padding: 0 15px;
+}
+
+.contact .container .row .col80 .checklist h2{
+font-size: 30px;
+color: #ffffff;
+line-height: 1.2;
+font-weight: 200;
+}
+
+
+.contact .container .row .col20{
+  max-width: 20%;
+  flex: 0 0 20%;
+ padding: 0 15px;
+}
+.contact .container .row .col20 .contactus button {
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #000000;
+  /* color: transparent; */
+}
+
+.contact .container .row .col20 .contactus button i{
+  border-radius: 50%;
+  background-color:#6db62a ;
+}
+.contact .container .row .col20 .contactus button:hover {
+background-color: transparent;
+border: 2px solid #fff;
+}
