@@ -176,7 +176,6 @@ a {
   position: relative;
   min-height: 100px;
   width: 100%;
-  /* top: 50px; */
   padding-top: 50px;
 }
 .Design .container .row .col60 {
@@ -252,7 +251,6 @@ height: 199px;
   min-height: 600px;
   background-color: #f5f4f4;
   position: relative;
-  top: 50px;
   padding-top: 100px;
 }
 .card .container .row .col100{
@@ -317,4 +315,84 @@ margin: 20px;
   color: #777777;
   line-height: 1.5;
   letter-spacing: 0.2px;
+}
+/* ======================Gardener==================== */
+.gardener{
+  min-height: 200px;
+  position: relative;
+  width: 100%;
+   background: #313718;
+    overflow: hidden;
+}
+
+.gardener .container .row .col50{
+  max-width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+     
+
+}
+.gardener .container .row .col50 .text{
+  padding-top: 50px;
+}
+
+
+.gardener .container .row .col50 .text h2{
+    color: #e2ba4b;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    margin: 0 0 17px;
+    text-transform: uppercase;
+    font-family: "Roboto Slab", serif;
+}
+
+.gardener .container .row .col50 .text p{
+      color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    font-style: italic;
+}
+.gardener .container .row .col50 .text h3{
+      font-size: 24px;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: .03em;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+
+ .gardenservices {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      gap: 20px;
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .service-item {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .service-item span {
+      font-size: 16px;
+      color: #f7b733;
+    }
+
+    .icon {
+      color: #f7b733;
+      font-size: 20px;
+    }
+
+.gardener .container .row .col50 .pic img{
+height: 441px;
+width: 845px;
+overflow: hidden;
 }
