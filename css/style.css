@@ -28,7 +28,7 @@ a {
   margin: 0 -15px;
   width: 100%;
 }
-
+/* =================Navbar======================================== */
 .navbar {
   position: relative;
   width: 100%;
@@ -66,7 +66,7 @@ a {
 .navbar .container .hamburger {
   display: none;
 }
-
+/* ==========================Banner============================================ */
 .banner {
   width: 100%;
   position: relative;
@@ -77,86 +77,84 @@ a {
   padding: 0;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #444;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .autoplay-progress {
-      position: absolute;
-      right: 16px;
-      bottom: 16px;
-      z-index: 10;
-      width: 48px;
-      height: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      color: var(--swiper-theme-color);
-    }
-
-    .autoplay-progress svg {
-      --progress: 0;
-      position: absolute;
-      left: 0;
-      top: 0px;
-      z-index: 10;
-      width: 100%;
-      height: 100%;
-      stroke-width: 4px;
-      stroke: var(--swiper-theme-color);
-      fill: none;
-      stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
-      stroke-dasharray: 125.6;
-      transform: rotate(-90deg);
-    }
-.contact{
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6px * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+/* =====================Contact======================================= */
+.contact {
   min-height: 100px;
   width: 100%;
   position: relative;
   background-color: #6db62a;
 }
-.contact .container .row{
+.contact .container .row {
   position: relative;
   top: 30px;
 }
-.contact .container .row .col80{
+.contact .container .row .col80 {
   max-width: 80%;
   flex: 0 0 80%;
   padding: 0 15px;
 }
 
-.contact .container .row .col80 .checklist h2{
-font-size: 30px;
-color: #ffffff;
-line-height: 1.2;
-font-weight: 200;
+.contact .container .row .col80 .checklist h2 {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 1.2;
+  font-weight: 200;
 }
 
-
-.contact .container .row .col20{
+.contact .container .row .col20 {
   max-width: 20%;
   flex: 0 0 20%;
- padding: 0 15px;
+  padding: 0 15px;
 }
 .contact .container .row .col20 .contactus button {
   padding: 10px 15px;
@@ -165,36 +163,158 @@ font-weight: 200;
   background-color: #000000;
 }
 
-.contact .container .row .col20 .contactus button i{
+.contact .container .row .col20 .contactus button i {
   border-radius: 50%;
-  background-color:#6db62a ;
+  background-color: #6db62a;
 }
 .contact .container .row .col20 .contactus button:hover {
-background-color: transparent;
-border: 2px solid #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
 }
-.Design{
+/* ======================Design================================= */
+.Design {
   position: relative;
   min-height: 100px;
   width: 100%;
-  top: 50px;
+  /* top: 50px; */
+  padding-top: 50px;
 }
-.Design .container .row .col50{
-  max-width: 50%;
-  flex: 0 0 50%;
+.Design .container .row .col60 {
+  max-width: 60%;
+  flex: 0 0 60%;
   padding: 0 15px;
   display: flex;
 }
-.Design .container .row .col50 .landscape h2{
-color: #282c3d;
-font-size: 38px;
-font-weight: bolder;
-text-transform: capitalize;
-padding-left: 30px;
+.Design .container .row .col60 .landscape h2 {
+  color: #282c3d;
+  font-size: 38px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-left: 30px;
 }
-.Design .container .row .col50 .landscape span{
+.Design .container .row .col60 .landscape span {
   color: #282c3d;
   font-size: 35px;
+  text-transform: uppercase;
+  margin: 0 0 15px;
   font-weight: 300;
   line-height: 1.14;
+}
+.Design .container .row .col60 .landscape p {
+  color: #898989;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.services li {
+  list-style: none;
+  font-size: 17px;
+  color: #6d8e2e;
+}
+
+.services li::before {
+  content: "› ";
+  color: #6d8e2e;
+}
+.Design .container .row .col40 {
+  max-width: 40%;
+  flex: 0 0 40%;
+  padding: 0 15px;
+}
+.Design .container .row .col40 .law h3 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: #272727;
+  text-transform: uppercase;
+}
+
+.Design .container .row .col40 .law p {
+  color: #898989;
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+.Design .container .row .col40 .law img{
+  margin: 25px 0 0;
+max-width: 100%;
+height: 199px;
+}
+/* ===================card=============================================== */
+.card{
+  min-height: 600px;
+  background-color: #f5f4f4;
+  position: relative;
+  top: 50px;
+  padding-top: 100px;
+}
+.card .container .row .col100{
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+}
+
+.card .container .row .col100 h2{
+  font-size: 18px;
+  margin: 0 0 6px;
+  color: #8d8d8d;
+  text-transform: capitalize;
+}
+.card .container .row .col100 p{
+  padding: 0 10px 0 0 ;
+  font-size: 22px;
+  color: #242424;
+  text-transform: capitalize;
+}
+.card .container .row .col33{
+  max-width: 33.33%;
+  flex: 0 0 33.33%;
+  padding: 0 15px;
+  margin-top: 50px;
+}
+
+.cardline {
+  box-shadow: 0 4px 8px 0 #000000;
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+}
+.cardline .icon{
+  background-color: #6d8e2e;
+  text-align: center;
+  border-radius: 50%;
+padding: 20px;
+margin: 20px;
+
+}
+.cardline .icon i{
+  font-size: 40px;
+    color: #ffffff;
+
+}
+.cardline:hover {
+  box-shadow: 0 8px 16px 0 #000002;
+}
+
+ .cardline .text h4{
+  color: #242424;
+  font-size: 15px;
+  padding: 21px 10px 15px 0;
+  text-transform: uppercase;
+}
+
+.cardline .text p{
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
 }
