@@ -408,37 +408,89 @@ a {
   padding-bottom: 30px;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-    }
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
 
-    .grid-item {
-      position: relative;
-      overflow: hidden;
-      border-radius: 8px;
-    }
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
 
-    .grid-item img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-      border-radius: 8px;
-    }
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+/* ==================Video====================== */
+.video {
+  min-height: 300px;
+  height: auto;
+  width: 100%;
+  background-image: url("../image/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.video .container .row .col60 {
+  max-width: 60%;
+  flex: 0 0 60%;
+  padding: 0 15px;
+}
+.video .container .row .col40 {
+  max-width: 40%;
+  flex: 0 0 40%;
+  padding: 0 15px;
+}
+.video .container .row .col60 .text h2 {
+  color: #419c04;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 22px;
+  font-family: "Roboto Slab", serif;
+}
 
-    .overlay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-      font-size: 20px;
-      font-weight: bold;
-      text-align: center;
-      background: rgba(0, 0, 0, 0.4);
-      padding: 10px 15px;
-      border-radius: 5px;
-    }
+.video .container .row .col60 p {
+  color: #656565;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 50px;
+  line-height: 1.2;
+}
+
+.video .container .row .col60 button {
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #000000;
+}
+
+.video .container .row .col60 button:hover {
+  background-color: transparent;
+  border: 2px solid #6db62a;
+  color: #000000;
+}
+
+.video .container .row .col60 button i {
+  border-radius: 50%;
+  background-color: #6db62a;
+}
