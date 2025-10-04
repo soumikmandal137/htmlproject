@@ -495,34 +495,84 @@ a {
   background-color: #6db62a;
 }
 /* ==========================Team============================== */
-.team{
+.team {
   position: relative;
-  min-height: 300px
+  min-height: 500px;
 }
-.team .container .row .col33{
-  max-width: 33.33%;
-  flex: 0 0 33.33%;
+.team .container .row .col100{
+  max-width: 100%;
+  flex: 0 0 100%;
   padding: 0 15px;
 }
+.team .container .row .col100 .text h2{
+      color: #8d8d8d;
+    font-family: "PT Serif", serif;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 6px;
 
+}
 
-     .swiper {
-      width: 100%;
-      height: 100%;
-    }
+.team .container .row .col100 .text p{
+      color: #242424;
+    font-family: "Roboto Slab", serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0;
+    text-transform: uppercase;
+}
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #444;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  /* box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1); */
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.card img {
+  display: block;
+  width: 313px;
+  height: 380px;
+  object-fit: cover;
+}
+
+.card .info {
+  padding: 15px;
+  display: flex;
+}
+
+.card .info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card .info span {
+  font-size: 14px;
+  color: #777;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #333;
+}
