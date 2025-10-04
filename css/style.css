@@ -709,7 +709,7 @@ a {
 }
 
 
-.footer-top .container .row .col30 .contactus button {
+.footer-top .container-fluid .row .col30 .contactus button {
   padding: 10px 15px;
   color: #ffffff;
   font-size: 20px;
@@ -719,16 +719,16 @@ a {
   transition: all 0.3s ease;
 }
 
-.footer-top .container .row .col30 .contactus button:hover {
+.footer-top .container-fluid .row .col30 .contactus button:hover {
   background-color: transparent;
   border: 2px solid #6db62a;
   color: #000000;
 }
 
-.footer-top .container .row .col30 .contactus button i {
+.footer-top .container-fluid .row .col30 .contactus button i {
   border-radius: 50%;
   background-color: #6db62a;
-  padding: 5px;
+  padding: 3px;
   margin-left: 5px;
 }
 
