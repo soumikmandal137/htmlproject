@@ -1,0 +1,153 @@
+/* =================================hambarger=========================== */
+@media screen and (max-width: 1024px) {
+  /* ===================== navbar ===================== */
+  .navbar .container .nav-menu ul li {
+    padding: 0 10px;
+  }
+
+  .navbar .container .nav-menu ul li a {
+    font-size: 16px;
+  }
+
+
+ .Design .container .row .col60 .landscape h2 {
+  font-size: 30px;
+  padding-left: 20px;
+} 
+
+.Design .container .row .col60 .landscape span {
+  font-size: 30px;
+}
+
+.Design .container .row .col60 .landscape p {
+    font-size: 12px;
+  padding-left: 20px;
+}
+.services li {
+  font-size: 12px;
+}
+
+.service-item span {
+  font-size: 12px;
+}
+
+.work {
+  min-height: 1000px;
+}
+
+.video .container .row .col60 {
+  max-width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+}
+.video .container .row .col40 {
+  max-width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+}
+
+}
+@media screen and (max-width: 992px) {
+  /* ===================== hamburger ===================== */
+  .navbar .container .hamburger {
+    display: inline;
+  }
+
+  .navbar .container .nav-menu ul {
+    display: block;
+    position: absolute;
+    top: 101px;
+    background: linear-gradient(rgb(222, 235, 224), rgb(178, 179, 178));
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .navbar .container .nav-menu ul li {
+    padding: 15px 0;
+  }
+
+  .navbar .container .nav-menu ul li a {
+    font-size: 16px;
+  }
+
+
+.contact .container .row .col20 .contactus button {
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+.Design .container .row .col60 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+  display: flex;
+}
+
+.Design .container .row .col40 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+}
+
+.card .container .row .col33 {
+  max-width: 50%;
+  flex: 0 0 50%;
+  padding: 0 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.gardener .container .row .col50 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+}
+
+.video .container .row .col60 {
+  max-width: 40%;
+  flex: 0 0 40%;
+  padding: 0 15px;
+}
+.video .container .row .col40 {
+  max-width: 60%;
+  flex: 0 0 60%;
+  padding: 0 15px;
+}
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .contact {
+  min-height: 150px;
+  width: 100%;
+  position: relative;
+  background-color: #6db62a;
+}
+  .contact .container .row .col80 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+  .contact .container .row .col80 .checklist h2 {
+    font-size: 25px;
+  }
+  .contact .container .row .col20 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+}
+
+
+
+@media screen and (max-width:380px) {
+     .contact {
+  min-height: 200px;
+  width: 100%;
+  position: relative;
+  background-color: #6db62a;
+}
+}

@@ -16,14 +16,13 @@
   margin: 0 auto;
 }
 
-.container-fluid{
-    width: 100%;
-  padding-right: 15px; 
-  padding-left: 15px;  
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  box-sizing: border-box; 
-
+  box-sizing: border-box;
 }
 
 li {
@@ -327,7 +326,7 @@ a {
 }
 /* ======================Gardener==================== */
 .gardener {
-  min-height: 200px;
+  min-height: 500px;
   position: relative;
   width: 100%;
   background: #313718;
@@ -684,32 +683,38 @@ a {
   color: #555;
 }
 /* ===============================Footer================================ */
-.footer-top{
+.footer-top {
   min-height: 200px;
   position: relative;
-  width: 100%;  
+  width: 100%;
   background-color: #419c04;
+}
 
+.footer-top .container-fluid .row .col60 {
+  max-width: 60%;
+  flex: 0 0 60%;
+  /* padding: 0 15px; */
 }
-.footer-top .container .row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center; 
+.footer-top .container-fluid .row .col60 .image {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
 }
-.footer-top .container .row .col70{
-  max-width: 70%;
-  flex: 0 0 70%;
+.footer-top .container-fluid .row .col60 .image img {
+    width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.footer-top .container .row .col40 {
+  max-width: 40%;
+  flex: 0 0 40%;
   padding: 0 15px;
 }
 
-.footer-top .container .row .col30{
-  max-width: 30%;
-  flex: 0 0 30%;
-  padding: 0 15px;
-}
-
-
-.footer-top .container-fluid .row .col30 .contactus button {
+.footer-top .container-fluid .row .col40 .contactus button {
   padding: 10px 15px;
   color: #ffffff;
   font-size: 20px;
@@ -719,43 +724,105 @@ a {
   transition: all 0.3s ease;
 }
 
-.footer-top .container-fluid .row .col30 .contactus button:hover {
+.footer-top .container-fluid .row .col40 .contactus button:hover {
   background-color: transparent;
   border: 2px solid #6db62a;
   color: #000000;
 }
 
-.footer-top .container-fluid .row .col30 .contactus button i {
+.footer-top .container-fluid .row .col40 .contactus button i {
   border-radius: 50%;
   background-color: #6db62a;
   padding: 3px;
   margin-left: 5px;
 }
 
-
- #garden{
-    color: #000000;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 35px;
-    margin: 0 0 10px;
-    text-transform: uppercase;
-    font-family: "Roboto Slab", serif;
+#garden {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
 }
 
-#need{
-      color: #ffffff;
-    font-size: 20px;
-    font-style: italic;
-    line-height: 26px;
-    margin-bottom: 23px;
+#need {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 26px;
+  margin-bottom: 23px;
 }
-#num{
-    color: #fff;
-    font-family: "PT Serif", serif;
-    font-size: 34px;
-    font-weight: bold;
-    margin-right: 10px;
-
+#num {
+  color: #fff;
+  font-family: "PT Serif", serif;
+  font-size: 34px;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
+/* ============================Footer============================= */
+.footer {
+  min-height: 300px;
+  width: 100%;
+  background-color: #7cd819;
+}
+
+.footer .container .row .col25 {
+  max-width: 25%;
+  flex: 0 0 25%;
+  padding: 0 15px;
+}
+.footer .container .row .col25 .images {
+  padding-top: 30px;
+}
+.footer .container .row .col25 .para-1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer .container .row .col25 .social-icons {
+  padding-top: 50px;
+}
+
+.footer .container .row .col25 .social-icons a {
+  text-align: center;
+}
+.footer .container .row .col25 .social-icons a i {
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.footer .container .row .col25 .social-icons a i:hover {
+  background-color: #22e31b;
+}
+
+.footer .container .row .col25 .para-2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.footer .container .row .col25 ul li a {
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer .container .row .col25 ul li a:hover {
+  color: #209f2e;
+  padding-left: 20px;
+}
+.footer .container .row .col100 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+  text-align: center;
+}
+.footer .container .row .col100 p {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
