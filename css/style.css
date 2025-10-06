@@ -326,7 +326,7 @@ a {
 }
 /* ======================Gardener==================== */
 .gardener {
-  min-height: 500px;
+  min-height: 100px;
   position: relative;
   width: 100%;
   background: #313718;
@@ -404,7 +404,7 @@ a {
 
 /* ========================Work=========================== */
 .work {
-  min-height: 1300px;
+  min-height: 600px;
   position: relative;
   width: 100%;
 }
@@ -453,13 +453,10 @@ a {
 }
 /* ==================Video====================== */
 .video {
-  min-height: 300px;
-  height: auto;
+  min-height: 400px;
+  padding-top: 50px;
+position: relative;
   width: 100%;
-  background-image: url("../image/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 .video .container .row .col60 {
   max-width: 60%;

@@ -117,6 +117,81 @@
 }
 
 
+.video .container .row .col60 .text h2 {
+  font-size: 25px;
+}
+
+.video .container .row .col60 p {
+  font-size: 12px;
+}
+.video .container .row .col60 button {
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .contact .container .row .col80 .checklist h2 {
+  font-size: 25px;
+}
+.contact .container .row .col20 .contactus button {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+
+
+ .Design .container .row .col60 .landscape h2 {
+  font-size: 25px;
+  padding-left: 20px;
+} 
+
+.Design .container .row .col60 .landscape span {
+  font-size: 25px;
+}
+
+.Design .container .row .col60 .landscape p {
+    font-size: 12px;
+  padding-left: 20px;
+}
+.services li {
+  font-size: 12px;
+}
+
+.service-item span {
+  font-size: 12px;
+}
+
+.cardline .icon {
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.cardline .text h4 {
+  font-size: 12px;
+}
+
+.cardline .text p {
+  font-size: 12px;
+}
+
+
+
+.video .container .row .col60 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+}
+.video .container .row .col40 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+}
+
+
+
 }
 
 @media screen and (max-width: 576px) {
