@@ -194,6 +194,7 @@ a {
   padding: 0 15px;
   display: flex;
 }
+
 .Design .container .row .col60 .landscape h2 {
   color: #282c3d;
   font-size: 38px;
@@ -453,8 +454,8 @@ a {
 }
 /* ==================Video====================== */
 .video {
-  min-height: 400px;
-  padding-top: 50px;
+  min-height: 500px;
+  padding-top: 100px;
 position: relative;
   width: 100%;
 }
@@ -505,6 +506,7 @@ position: relative;
 .team {
   position: relative;
   min-height: 500px;
+
 }
 .team .container .row .col100 {
   max-width: 100%;
@@ -626,7 +628,7 @@ position: relative;
 
 .blog .container .row .col33 img {
   width: 100%;
-  height: 200px;
+  height: auto;
   object-fit: cover;
   display: block;
 }
@@ -771,9 +773,14 @@ position: relative;
   flex: 0 0 25%;
   padding: 0 15px;
 }
-.footer .container .row .col25 .images {
+
+.footer .container .row .col25 .para{
+    font-size: 30px;
+  font-weight: 500;
+  color: #fff;
   padding-top: 30px;
 }
+
 .footer .container .row .col25 .para-1 {
   font-size: 18px;
   font-weight: 500;

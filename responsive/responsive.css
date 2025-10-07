@@ -1,4 +1,3 @@
-/* =================================hambarger=========================== */
 @media screen and (max-width: 1024px) {
   /* ===================== navbar ===================== */
   .navbar .container .nav-menu ul li {
@@ -9,43 +8,40 @@
     font-size: 16px;
   }
 
+  .Design .container .row .col60 .landscape h2 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
 
- .Design .container .row .col60 .landscape h2 {
-  font-size: 30px;
-  padding-left: 20px;
-} 
+  .Design .container .row .col60 .landscape span {
+    font-size: 30px;
+  }
 
-.Design .container .row .col60 .landscape span {
-  font-size: 30px;
-}
-
-.Design .container .row .col60 .landscape p {
+  .Design .container .row .col60 .landscape p {
     font-size: 12px;
-  padding-left: 20px;
-}
-.services li {
-  font-size: 12px;
-}
+    padding-left: 20px;
+  }
+  .services li {
+    font-size: 12px;
+  }
 
-.service-item span {
-  font-size: 12px;
-}
+  .service-item span {
+    font-size: 12px;
+  }
 
-.work {
-  min-height: 1000px;
-}
-
-.video .container .row .col60 {
-  max-width: 50%;
-  flex: 0 0 50%;
-  padding: 0 15px;
-}
-.video .container .row .col40 {
-  max-width: 50%;
-  flex: 0 0 50%;
-  padding: 0 15px;
-}
-
+  .video .container .row .col60 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+  .video .container .row .col40 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+  }
+  .footer-top {
+    padding-bottom: 50px;
+  }
 }
 @media screen and (max-width: 992px) {
   /* ===================== hamburger ===================== */
@@ -72,17 +68,202 @@
     font-size: 16px;
   }
 
+  .contact .container .row .col20 .contactus button {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
 
-.contact .container .row .col20 .contactus button {
-  padding: 8px 10px;
-  font-size: 15px;
+  .Design .container .row .col60 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+    display: flex;
+  }
+
+  .Design .container .row .col40 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+
+  .card .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .gardener .container .row .col50 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+
+  .video .container .row .col60 {
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding: 0 15px;
+  }
+  .video .container .row .col40 {
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding: 0 15px;
+  }
+
+  .video .container .row .col60 .text h2 {
+    font-size: 25px;
+  }
+
+  .video .container .row .col60 p {
+    font-size: 12px;
+  }
+  .video .container .row .col60 button {
+    padding: 8px 10px;
+    font-size: 15px;
+  }
+  .footer-top {
+    padding-bottom: 50px;
+  }
 }
 
-.Design .container .row .col60 {
+@media screen and (max-width: 768px) {
+  .contact .container .row .col80 .checklist h2 {
+    font-size: 25px;
+  }
+  .contact .container .row .col20 .contactus button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .Design .container .row .col60 .landscape h2 {
+    font-size: 25px;
+    padding-left: 20px;
+  }
+
+  .Design .container .row .col60 .landscape span {
+    font-size: 25px;
+  }
+
+  .Design .container .row .col60 .landscape p {
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  .services li {
+    font-size: 12px;
+  }
+
+  .service-item span {
+    font-size: 12px;
+  }
+
+  .cardline .icon {
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .cardline .text h4 {
+    font-size: 12px;
+  }
+
+  .cardline .text p {
+    font-size: 12px;
+  }
+
+  .video .container .row .col60 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+  .video .container .row .col40 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+
+  .team {
+    padding-top: 50px;
+  }
+
+  .blog .container .row .col33 {
+    width: 50%;
+    flex: 0 0 50%;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+
+  .footer .container .row .col25 ul li a {
+    font-size: 15px;
+  }
+  .footer-top {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact {
+    min-height: 150px;
+    width: 100%;
+    position: relative;
+    background-color: #6db62a;
+  }
+  .contact .container .row .col80 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+  .contact .container .row .col80 .checklist h2 {
+    font-size: 20px;
+  }
+  .contact .container .row .col20 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+  }
+
+  .Design .container .row .col60 .landscape h2 {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+
+  .Design .container .row .col60 .landscape span {
+    font-size: 20px;
+  }
+
+  .Design .container .row .col60 .landscape p {
+    font-size: 10px;
+    padding-left: 15px;
+  }
+  .services li {
+    font-size: 10px;
+  }
+
+  .service-item span {
+    font-size: 10px;
+  }
+
+  .card .container .row .col33 {
+  max-width: 100%;
+  flex: 0 0 100%;
+}.footer .container .row .col25 {
+  max-width: 50%;
+  flex: 0 0 50%;
+
+}
+
+
+}
+
+@media screen and (max-width:500px) {
+
+  .Design .container .row .col60 {
   max-width: 100%;
   flex: 0 0 100%;
   padding: 0 15px;
-  display: flex;
+  /* display: flex; */
 }
 
 .Design .container .row .col40 {
@@ -91,138 +272,64 @@
   padding: 0 15px;
 }
 
-.card .container .row .col33 {
-  max-width: 50%;
-  flex: 0 0 50%;
-  padding: 0 15px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.gardener .container .row .col50 {
-  max-width: 100%;
-  flex: 0 0 100%;
-  padding: 0 15px;
-}
-
-.video .container .row .col60 {
-  max-width: 40%;
-  flex: 0 0 40%;
-  padding: 0 15px;
-}
-.video .container .row .col40 {
-  max-width: 60%;
-  flex: 0 0 60%;
-  padding: 0 15px;
-}
-
-
-.video .container .row .col60 .text h2 {
-  font-size: 25px;
-}
-
-.video .container .row .col60 p {
-  font-size: 12px;
-}
-.video .container .row .col60 button {
-  padding: 8px 10px;
-  font-size: 15px;
-}
-
-}
-
-@media screen and (max-width: 768px) {
-
-  .contact .container .row .col80 .checklist h2 {
-  font-size: 25px;
-}
-.contact .container .row .col20 .contactus button {
-  padding: 5px 10px;
-  font-size: 12px;
-}
-
-
-
- .Design .container .row .col60 .landscape h2 {
-  font-size: 25px;
-  padding-left: 20px;
-} 
-
-.Design .container .row .col60 .landscape span {
-  font-size: 25px;
-}
-
-.Design .container .row .col60 .landscape p {
-    font-size: 12px;
-  padding-left: 20px;
-}
-.services li {
-  font-size: 12px;
-}
-
-.service-item span {
-  font-size: 12px;
-}
-
-.cardline .icon {
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.cardline .text h4 {
-  font-size: 12px;
-}
-
-.cardline .text p {
-  font-size: 12px;
-}
-
-
-
-.video .container .row .col60 {
-  max-width: 100%;
-  flex: 0 0 100%;
-  padding: 0 15px;
-}
-.video .container .row .col40 {
-  max-width: 100%;
-  flex: 0 0 100%;
-  padding: 0 15px;
-}
-
-
-
-}
-
-@media screen and (max-width: 576px) {
-    .contact {
-  min-height: 150px;
+.Design .container .row .col60 .picture img{
   width: 100%;
-  position: relative;
-  background-color: #6db62a;
-}
-  .contact .container .row .col80 {
-    max-width: 100%;
-    flex: 0 0 100%;
-    padding: 0 15px;
-  }
-  .contact .container .row .col80 .checklist h2 {
-    font-size: 25px;
-  }
-  .contact .container .row .col20 {
-    max-width: 100%;
-    flex: 0 0 100%;
-    padding: 0 15px;
-  }
+  height: auto;
 }
 
+    .Design .container .row .col60 .landscape h2 {
+    font-size: 15px;
+    padding-left: 10px;
 
+  }
 
-@media screen and (max-width:380px) {
-     .contact {
-  min-height: 200px;
+  .Design .container .row .col60 .landscape span {
+    font-size: 15px;
+  }
+
+  .Design .container .row .col60 .landscape p {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+  .services{
+    padding-left: 10px;
+  }
+    .services li {
+    font-size: 8px;
+  }
+
+  .service-item span {
+    font-size: 8px;
+  }
+  
+.blog .container .row .col33 {
   width: 100%;
-  position: relative;
-  background-color: #6db62a;
+  flex: 0 0 100%;
+  padding-right: 5px;
 }
+.gardener .container .row .col50 .pic img {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video .container .row .col40 .pic img{
+  width: 100%;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 400px) {
+  .contact {
+    min-height: 200px;
+    width: 100%;
+    position: relative;
+    background-color: #6db62a;
+  }
+
+  .footer .container .row .col25 {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
 }
