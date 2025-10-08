@@ -458,6 +458,12 @@ a {
   padding-top: 100px;
 position: relative;
   width: 100%;
+  background-image: url(../image/bg.jpg);
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
 }
 .video .container .row .col60 {
   max-width: 60%;
