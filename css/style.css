@@ -456,14 +456,12 @@ a {
 .video {
   min-height: 500px;
   padding-top: 100px;
-position: relative;
   width: 100%;
-  background-image: url(../image/bg.jpg);
+  position: relative;
+  background-image: url(../images/bg.jpg);
   background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .video .container .row .col60 {
   max-width: 60%;
@@ -512,7 +510,6 @@ position: relative;
 .team {
   position: relative;
   min-height: 500px;
-
 }
 .team .container .row .col100 {
   max-width: 100%;
@@ -708,7 +705,7 @@ position: relative;
   border-radius: 10px;
 }
 .footer-top .container-fluid .row .col60 .image img {
-    width: 100%;
+  width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
@@ -780,8 +777,8 @@ position: relative;
   padding: 0 15px;
 }
 
-.footer .container .row .col25 .para{
-    font-size: 30px;
+.footer .container .row .col25 .para {
+  font-size: 30px;
   font-weight: 500;
   color: #fff;
   padding-top: 30px;
